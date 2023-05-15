@@ -13,14 +13,11 @@ const validate = async (spec: string) => {
   }
 }
 
-export const getOverlayAnchor: PlasmoGetOverlayAnchor = async () =>
-  document.querySelector("table.js-file-line-container")
-
 export const syncSpec = () => {
   const isValidExtension = () => {
     return location.href.includes("json") || location.href.includes("yaml")
   }
-  const code = document.querySelector("table.js-file-line-container")
+  const code = document.querySelector("textarea[aria-label='file content']")
   if (!isValidExtension() || !code?.textContent) {
     return
   }

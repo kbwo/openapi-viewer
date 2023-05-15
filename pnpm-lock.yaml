@@ -14,7 +14,6 @@ specifiers:
   prettier: 2.8.3
   react: 18.2.0
   react-dom: 18.2.0
-  react-hot-keys: ^2.7.2
   react-is: ^16.8
   redoc: ^2.0.0
   styled-components: ^5.3.6
@@ -27,7 +26,6 @@ dependencies:
   plasmo: 0.65.0_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-hot-keys: 2.7.2_biqbaboplfbrettd7655fr4n2y
   react-is: 16.13.1
   redoc: 2.0.0_hl73op6urc7tgsql6zmnjismxq
   styled-components: 5.3.6_vtcxgy2wlmese7djxl6h7ok674
@@ -3565,10 +3563,6 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /hotkeys-js/3.10.1:
-    resolution: {integrity: sha512-mshqjgTqx8ee0qryHvRgZaZDxTwxam/2yTQmQlqAWS3+twnq1jsY9Yng9zB7lWq6WRrjTbTOc7knNwccXQiAjQ==}
-    dev: false
-
   /htmlnano/2.0.3_svgo@2.8.0:
     resolution: {integrity: sha512-S4PGGj9RbdgW8LhbILNK7W9JhmYP8zmDY7KDV/8eCiJBQJlbmltp5I0gv8c5ntLljfdxxfmJ+UJVSqyH4mb41A==}
     peerDependencies:
@@ -4951,19 +4945,6 @@ packages:
 
   /react-error-overlay/6.0.9:
     resolution: {integrity: sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==}
-    dev: false
-
-  /react-hot-keys/2.7.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-Z7eSh7SU6s52+zP+vkfFoNk0x4kgEmnwqDiyACKv53crK2AZ7FUaBLnf+vxLor3dvtId9murLmKOsrJeYgeHWw==}
-    peerDependencies:
-      '@babel/runtime': '>=7.10.0'
-      react: '>=16.9.0'
-      react-dom: '>=16.9.0'
-    dependencies:
-      hotkeys-js: 3.10.1
-      prop-types: 15.8.1
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react-is/16.13.1:
